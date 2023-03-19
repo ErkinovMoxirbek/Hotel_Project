@@ -16,12 +16,13 @@ public class Passport {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
+    @Column(nullable = false)
     private String number;
-    @Column(name = "given_place")
+    @Column(name = "given_place",nullable = false)
     private String givenPlace;
-    @Column(name = "given_date")
+    @Column(name = "given_date", nullable = false)
     private LocalDate givenDate;
-    @Column(name = "exp_date")
+    @Column(name = "exp_date", nullable = false)
     private LocalDate expDate;
 
 }
