@@ -14,6 +14,10 @@
         <mapping class="org.example.dto.Passport" />
         <mapping class="org.example.dto.Employee" />
         <mapping class="org.example.dto.Guest" />
+        <mapping class="org.example.dto.Complaint" />
+        <mapping class="org.example.dto.CleanedRoom" />
+        <mapping class="org.example.dto.OutCome" />
+        <mapping class="org.example.dto.Booking" />
         <mapping class="org.example.dto.Room" />
     </session-factory>
 

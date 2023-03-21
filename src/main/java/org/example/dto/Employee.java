@@ -4,6 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 import org.example.enums.Status;
+import org.example.enums.TypeEmployee;
 import org.example.enums.TypeRoom;
 
 import javax.persistence.*;
@@ -27,5 +28,5 @@ public class Employee {
     @Column(nullable = false)
     private Status status;
     @Column(nullable = false)
-    private TypeRoom type;
+    private TypeEmployee type;
 }

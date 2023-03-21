@@ -1,4 +1,4 @@
-package org.example.repository.util;
+package org.example.util;
 
 import java.util.Scanner;
 
